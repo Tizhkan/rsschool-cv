@@ -1,0 +1,63 @@
+body {
+  font-style: Arial;
+  color: black;
+}
+
+.header {
+  padding: 10px 0;
+  color: black;
+  background-color: rgb(235, 232, 217);
+  border-bottom: black;
+}
+.nav {
+  list-style-type: none;
+  font-size: 14px;
+  display: flex;
+  padding: 5 px;
+}
+.navList {
+  margin-left: 5em;
+}
+
+.sidebar {
+  width: 190px;
+  display: inline-block;
+}
+
+.imgMain {
+  width: 44;
+  height: 33;
+}
+
+.personalData .contacts {
+  padding: 44px 0px 54px 0px;
+}
+
+.mainOfSide {
+  display: inline-block;
+  margin-left: 191px;
+  width: 300px;
+  list-style-type: none;
+}
+
+.footer {
+  padding: 2px 0;
+  background-color: rgb(235, 232, 217);
+}
+
+.footerSection {
+  display: inline-block;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.footerYear,
+.footerLogo {
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+  vertical-align: middle;
+}
+.footerLogo {
+  border-radius: 100px;
+}
